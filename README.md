@@ -20,7 +20,7 @@ Run by:
    ```
    pip install -r requirements.txt
    ```
-- Download the dataset (`spotify_millsongdata.csv`)
+- Download the dataset (i used `spotify million song dataset` - it is openly avaliable from kaggel and other sources).
 - Start the app:
    ```
    streamlit run app.py
