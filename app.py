@@ -23,10 +23,10 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-S_CLIENT_ID = ""
-S_CLIENT_SECRET = ""
+S_ID = ""
+S_KEY = ""
 
-auth_manage = SpotifyClientCredentials(client_id=S_CLIENT_ID, client_secret=S_CLIENT_SECRET)
+auth_manage = SpotifyClientCredentials(client_id=S_ID, client_secret=S_KEY)
 spotify = spotipy.Spotify(client_credentials_manager=auth_manage)
 
 def fetch_album_cover(song, artist):
