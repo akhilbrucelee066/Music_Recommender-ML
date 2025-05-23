@@ -1,4 +1,4 @@
-# Music Recommender using "Content-Based-Filtering" (TF-IDF)
+# Music Recommender using "Content-Based-Filtering"
 
 - The app uses a dataset of song lyrics.
 - It processes the lyrics and finds songs that are textually similar.
