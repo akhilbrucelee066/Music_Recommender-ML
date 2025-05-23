@@ -3,7 +3,6 @@ spotipy
 pandas
 nltk
 
-
-#pip install plotly pandas streamlit spotipy
-#pip install -r requirements.txt
-#streamlit run app.py
+# Download dataset
+# pip install -r requirements.txt
+# streamlit run app.py
