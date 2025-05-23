@@ -1,7 +1,7 @@
-import pickle
 import streamlit as st
-import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
+import spotipy
+import pickle
 
 st.set_page_config(page_title="Music Recommender", page_icon="🎵", layout="wide")
 st.markdown("""
